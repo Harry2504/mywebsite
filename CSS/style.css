@@ -1,0 +1,87 @@
+	h1{
+		background: black;
+		font-size: 150%;
+		color: white;
+	}
+	
+	header{
+		background: yellow;
+		text-align: center;
+	}
+	
+	nav{
+		font-variant: normal;
+		font-size: 150%;
+		font-family: Arial , "Times New Roman", serif; 
+	}
+
+	h2{
+		color: white;
+		background-color: black;
+		font-family: Impact ,serif;
+		font-style: normal; 
+	}
+
+	details{
+		font-style: italic;
+	}
+
+	summary{
+		font-style: normal;
+	}
+
+	footer{
+		background-color: black;
+		color: white;
+	}
+
+	a{
+		color: gray; 
+	}
+
+	span{
+		/*display: inline;*/
+		background-color: blue;
+		color: yellow;
+		width: 100px;
+		height: 150px;
+		border-style: dashed;
+		/*float: right;
+		clear: right;*/
+	}
+
+	p{
+		background: pink;
+		color: blue;
+		width: 30%;
+		/*display: table-cell;
+	    overflow: auto;/*
+	    /*visibility: hidden*/
+	    border-style: dashed;
+	    border-width: 3px 10px 20px;
+	}
+
+	div{
+		float: right;
+		background-color: orange;
+		color: green; 
+		height: 100px;
+		width: 150px;
+		clear:both;
+	}
+
+	footer{
+		display: table;
+	}
+
+	ul{
+		list-style: square;
+	}
+
+	ol{
+		list-style: upper-alpha;
+	}
+
+	/*ul{
+		list-style-image: url("../images/1.jpg");
+	}*/

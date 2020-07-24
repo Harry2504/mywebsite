@@ -1,0 +1,31 @@
+a{
+	color: orange;
+	background-color:black;
+	margin: 20px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 150px;
+	font-weight: bold;
+}
+
+a:link{
+	color: orange;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: yellow;
+}
+
+a:focus{
+	color: blue;
+}
+
+a:active{
+	color: pink;
+}

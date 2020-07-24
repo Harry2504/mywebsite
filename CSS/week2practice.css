@@ -1,0 +1,45 @@
+h1{
+	color: white;
+}
+
+nav{
+	font-variant: small-caps;
+}
+
+header{
+	background-color:#ADD8E6 ;
+	text-align: center;
+	padding: 15px
+}
+
+h2{
+	color: gray;
+	background-color: #ADD8E6;
+}
+
+footer{
+	background-color: #ADD8E6;
+	clear: both;
+}
+
+section{
+	display: inline-block;
+	box-sizing: border-box;
+
+	display: table-cell;
+
+	width: 30%;
+	height:100px;
+	margin: 10px;
+	padding: 10px;
+}
+
+img{
+	height: 30px;
+	width: 50px;
+}
+
+body{
+	background-color: gray;
+	margin: 4%;
+}

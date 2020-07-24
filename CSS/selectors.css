@@ -1,0 +1,53 @@
+body{
+	background-image: url('../images/2.jpg');
+	background-repeat: 1;
+	background-size: 1000px;
+	
+}
+
+header{
+	background-color: blue;
+}
+
+footer{
+	background-color: blue;	
+}
+
+header,footer{
+	background: #666666;
+	/* 90 deg converts the angle of gradient if you put nothing in there then the mixing woulf be done horizontally*/
+	background: -moz-linear-gradient(-90deg, #666666, #FFFFFF, green);
+	background: -webkit-linear-gradient(-90deg, #666666, #FFFFFF, green);
+	background: -o-linear-gradient(-90deg, #666666, #FFFFFF, green);
+	background: linear-gradient(-90deg, #666666, #FFFFFF, green);
+}
+
+nav a{
+	display: inline-block;
+	width:22%;
+	background-color: yellow;
+}
+
+/* remember . denoyes class*/
+.half{
+	float: left;
+	display: inline-block;
+	display: table-cell
+	margin-right:2%;
+	width: 45%;
+
+}
+
+h2{
+	padding: 2%;
+	margin-right:2%;
+	background-color: blue;
+}
+
+.whole{
+	clear: both;
+}
+
+body{
+	background-color: gray;
+}
